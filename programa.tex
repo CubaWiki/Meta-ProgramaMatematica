@@ -1,0 +1,1046 @@
+\documentclass[spanish]{article}
+
+%M\'argenes piolas
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath,amssymb}
+\usepackage[shortlabels]{enumitem}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\hypersetup{
+      colorlinks,
+      citecolor=black,
+      filecolor=black,
+      linkcolor=black,
+      urlcolor=black
+}
+\usepackage{xcolor}
+
+%no section numbering
+\setcounter{secnumdepth}{0}
+
+\newcommand{\RR}{\mathbb{R}}
+
+
+%% README:
+%% Traduccion de lo programas de las materias de Matematica y Computacion de la UBA
+%% Es probable que esto contenga errores. Tambien falta calculo numerico para matematicos.
+
+\begin{document}
+
+\section{General remarks}
+\begin{itemize}
+  \item
+  The recommended bibliography of the courses usually contains four or five books
+  but I include only the ones that I consulted during the course.
+
+  \item
+  ``Chapters $x$ to $y$'' means that chapter $y$ is included.
+
+  \item
+  I had to manually translate the outlines, so in this sense they are not
+  official.
+\end{itemize}
+
+\section{Department of Mathematics -- required courses}
+
+\subsection{Algebra I}
+
+\begin{itemize}
+  \item
+Operations with sets. Properties, De Morgan law. Cartesian product. Functions,
+graphic, bijections. Composition. Relations. Equivalence relations. Partitions.
+Quotient sets.
+
+  \item
+Induction. Inductive definitions.
+
+  \item
+Elements of combinatorial analysis. Combinations, permutations. Combinations
+with repetition. Partitions.
+
+  \item
+Integers, divisibility. Division algorithm. Greatest common divisor and Least
+common multiple. Prime numbers. Fundamental theorem of arithmetic. Factorization.
+Congruences. Numeration systems. Rational and irrational numbers.
+
+  \item
+Complex numbers. Trigonometric form. De Moivre theorem. Roots of unity.
+
+  \item
+Polynomials. Polynomial remainder theorem. Divisibility. Roots and multiplicity.
+Gauss's lemma (polynomials).
+\end{itemize}
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+E. Gentile. Notas de \'Algebra. Eudeba, Buenos Aires.\\
+Complete.
+
+  \item
+Birkhoff-Mc Lane. A Survey of Modern Algebra.\\
+Chapter $1$. Chapters $2$ to $5$ optional, to get a deeper understanding of
+the contents of the course.
+\end{itemize}
+
+\hrulefill
+%\hrulefill%------------------------------
+
+\subsection{Linear Algebra}
+
+\begin{itemize}
+  \item
+The vector spaces $K^n$. Linear dependence. Systems of linear equations. Matrix
+notation. Gauss's method. Linear dependence of rows and columns. Basic results:
+homogeneous systems with more unknowns than equations.
+
+  \item
+Permutations. Symmetric Group. Determinant and fundamental properties. Computation
+of determinant, minors, cofactors. Laplace's theorem, computation of determinant
+by rows and by columns.
+
+  \item
+The matrix ring. Determinant of a product. Adjoint matrix. Inverse matrix. Cramer's rule.
+Row and column operations. Elemental matrices. General Linear Group. Equivalence
+of matrices. Rank.
+
+
+  \item
+Abstract vector spaces. Generators. Basis. Existence of basis in the finite dimensional case.
+Coordinates and isomorphism with $K^n$. Subspaces and linear varieties. Intersection, sum.
+Theorem of direct sum (dimension). Linear forms. Dual space. Dual basis. Annihilator.
+
+  \item
+Linear transformations. Sum and composition. Associated matrix (choosing a basis).
+Matrix of a composition. Isomorphism with the matrix ring. Change of basis matrix
+and change of coordinates. Similarity of matrices. Kernel, Image and Dimension theorem
+(kernel extension theorem for vector spaces). Eigenvalues and eigenvectors. Characteristic
+polynomial. Diagonalization.
+
+
+  \item
+Bilinear forms. Associated matrix (choosing a basis). Symmetric bilinear forms.
+Quadratic forms. Polarization identity. Real case. Positive-definite forms characterization.
+Complex case. Hermitian forms.
+
+
+  \item
+Scalar product, angle, cosine, projection of vectors, orthogonality. Distance between linear
+varieties. Scalar product in abstract spaces. Real and complex case. Cauchy-Schwarz.
+Gram-Schmidt. Orthonormal basis.
+
+  \item
+Adjoint transformation. Rotations in $R^n$. Structure of orthogonal transformations.
+Diagonalization with orthogonal matrices.
+
+
+  \item
+Nilpotent operators. Base and Jordan canonical form. Minimal polynomial. Invariant subspaces.
+Triangular form. Primary decomposition. Cayley-Hamilton. Basis and Jordan form.
+
+\end{itemize}
+
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Seymour Lipschutz, Marc Lipson. Schaum's Outline of Linear Algebra.\\
+Complete.
+
+  \item
+Gabriela Jeronimo, Juan Sabia, Susana Tesauri. \'Algebra Lineal.
+Cursos de Grado - Publicaciones del departamento de Matem\'atica.\\
+Complete.
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+
+\subsection{Algebra II}
+
+
+\begin{itemize}
+  \item
+Groups.
+Binary operations. Monoids. Semigroups. Groups. Morphisms. Quotient by subgroup.
+Compatible equivalence relations and normal subgroups. Examples: cyclic groups,
+symmetric groups, alternate groups, matrix groups, automorphism group of some
+structure. Semidirect product. Actions of groups, orbits, quotient by action.
+Sylow's theorems.
+
+
+  \item
+Rings.
+Morphisms. Ideals. Quotient ring. Examples. Zero divisors. Nilpotent elements.
+Unities. Irreducible elements. Prime ideals, maximal ideals. Euclidean domains.
+Principal ideal domain. Unique factorization domains.
+
+
+  \item
+Modules.
+Examples: vector spaces, abelian groups, ideals, endomorphism space of vector space,
+linear representations. Morphisms. Submodules and quotient module. Operations
+with submodules. Isomorphism theorems. Exact sequences, commutative diagrams.
+Projective and injective modules.
+Direct sum and product. Finitely generated modules. Free modules. Torsion. Divisibility.
+Structure of torsion and divisible modules over a principal ideal domain. Multiplicative
+sets. Fraction ring and module, localization. Noetherian and artinian modules.
+Hilbert's basis theorem. Structure of finitely generated modules over a principal
+ideal domain. Tensor product. Scalar extension and restriction. Multilinear algebra.
+Graded algebras. Tensor, symmetric and exterior algebra of a module.
+Semisimple rings and modules. Examples.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Atiyah-Macdonald. Introduction to Commutative Algebra\\
+Chapters $1$ to $4$.
+
+  \item
+Lang, Serge: Algebra, Addison-Wesley, Reading, 1965.\\
+Chapters $1$ to $4$. Chapters $16$ and $17$.
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Algebra III}
+
+
+\begin{itemize}
+  \item
+Fields and extensions. Fraction fields. Characteristic, prime fields.
+
+  \item
+Polynomials and rational fractions. Universal algebra of a semigroup.
+Polynomial algebra, algebraic dependence.
+
+  \item
+Polynomial factorization. Primitive polynomials, Gauss's lemma. Eisenstein's criterion.
+
+  \item
+Finite extensions and simple extensions. Distinguished class of extensions.
+
+  \item
+Algebraic extensions. Algebraic elements, minimal polynomial. Transcendental elements.
+Transcendental extensions.
+
+  \item
+Algebraically closed fields. Algebraic closure.
+Existence of algebraic closure.
+
+  \item
+Decomposition field. Existence and uniqueness.
+
+  \item
+Group representations, conjugation and orbits. Endomorphisms of algebraic
+extensions. Conjugated fields.
+
+  \item
+Normal extensions. Scalar extension.
+
+  \item
+Separable extensions. Separable elements. Finite separable extensions. Separable
+polynomials. Primitive element theorem.
+
+  \item
+Galois extensions. Scalar extension.
+
+  \item
+Galois theory. Normal subextensions. Finite groups of automorphisms. Artin's theorem.
+Galois's fundamental theorem.
+
+  \item
+Radical extensions. Radical elements. Radical closure.
+
+  \item
+Purely inseparable extensions. Separable closure. Separability and inseparability
+degree.
+
+  \item
+Perfect fields.
+
+  \item
+Trace and norm. Separability and trace. Discriminant of the trace form in separable
+extensions.
+
+  \item
+Introduction to Galois cohomology. Algebraic independence. Normal basis theorem for
+Galois extensions. Hilbert's theorem $90$.
+
+  \item
+Abelian extensions and cyclic extensions. Normal basis for cyclic extensions.
+Quadratic extensions.
+
+  \item
+Finite fields. Classification. Finite extensions over finite fields. Generators
+of the Galois group. Surjectivity of norm and trace.
+
+  \item
+Roots of unity. Structure and properties of the roots of unity groups in a field.
+Primitive roots.
+
+  \item
+Cyclotomic fields. Structure of the unity group of integers modulo $n$. Cyclotomic
+polynomials. Irreducibility criteria.
+
+  \item
+Cyclic extensions. Abelian extensions of degree $p$, in characteristic $p$ and
+Artin-Schreier equations.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Lang, Serge: Algebra, Addison-Wesley, Reading, 1965.\\
+Chapters $5$, $6$ and $8$.
+
+  \item
+Gentile, E.R.: Teoría de cuerpos, Notas de Matemática, IMAF (Universidad de Córdoba). Córdoba, 1969.\\
+Complete.
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Analysis I}
+
+\begin{itemize}
+  \item
+Completeness of $\RR$. Supreme's existence and equivalences. Distance, open disks and closed disks. Interior points. Interior of a set. Open sets. Adherent points. Closure of a set. Closed sets. Bounded sets. Limit of real numbers' sequences. Limit of sequences in $\RR^n$ and limit in each coordinate.
+
+  \item
+Functions from $\RR^n$ to $\RR^k$. Graphical representation. Domain of definition. Level curves and surfaces. Limit of functions from $\RR^n$ to $\RR^k$. Limit along lines and curves. Continuous functions. Composition of continuous functions. Properties of continuous functions.
+
+  \item
+Partial derivatives. Linear approximation. Differential of a function. Jacobian matrix. Tangent plane to the graph of a function. Chain rule. General theorems of the inverse function and of the implicit function. Scalar product in $\RR^n$. Equation of a plane orthogonal to a vector. Directional derivatives. Gradient. Relation with the level surfaces and the direction of maximal growth. Tangent plane to a level surface. Mean value theorem in several variables. Higher order derivatives. Polynomial approximation of second order. Hessian matrix (or Hessian) of a function.
+
+  \item
+Critical points and extrema of a function. Quadratic forms, associated matrix. Analysis of the critical points in several variables through the Hessian: maxima, minima, saddle points. Constrained extrema: extrema of a function over a set given by an equation $G = 0$. Condition for a point to be a critical point. Lagrange multipliers.
+
+  \item
+Review: definite integral, Riemann sums, Fundamental theorem of calculus, Barrow's rule. Improper integrals: definitions, properties, convergence criteria, absolute convergence. Application: convergence of series. The double integral over rectangles. The double integral over more general domains. Change of the order of integration: Fubini's theorem. The triple integral. The change of variables theorem. Applications of double and triple integrals.
+
+\end{itemize}
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item J. Marsden and A. Tromba. Vector Calculus. Freeman and Company.\\
+    Complete.
+
+  \item T. Apostol. Calculus, Vol. I. John Wiley \& Sons.\\
+    Chapters $1$ to $5$.
+
+\end{itemize}
+
+
+
+\hrulefill%------------------------------
+\subsection{Analysis II}
+
+\begin{itemize}
+  \item
+The line integral. Parametrized surfaces. Area of a surface. Integrals of scalar functions over surfaces. Integrals of vector fields over surfaces. Applications.
+
+  \item
+Green's theorem. Stokes' theorem. Conservative fields. Gauss' theorem. Applications.
+
+  \item
+Differential equations. Introduction and elementary methods. Existence and uniqueness theorem. Maximal solutions. Systems of first order linear differential equations and higher order differential equations.
+
+  \item
+Resolution of systems of linear differential equations with constant coefficients. Field lines. Linear stability. Conservative systems. Applications.
+\end{itemize}
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item Noem\'i Wolansky. Introducci\'on a las Ecuaciones Diferenciales Ordinarias.
+    Cursos de Grado - Publicaciones del departamento de Matem\'atica.\\
+    Complete.
+
+  \item J. Rey Pastor, P. Pi Calleja and C. Trejo. Análisis Matemático, Vol. II. Ed. Kapelusz.\\
+    Chapters $20$ and $23$.
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Advanced Calculus}
+
+\begin{itemize}
+  \item
+Real numbers. Sequences. Monotone, bounded and Cauchy sequences.
+Extended real line. Superior and inferior limit. Series of positive
+terms. b-ary notation, uniqueness and non uniqueness.
+
+  \item
+Cardinality. Equivalence of sets. Finite and infinite sets. Countable
+sets. Uncountable sets. Continuum. Schr\"oder-Bernstein. Cantor's theorem.
+Operations between cardinals.
+
+  \item
+Metric spaces. Distances. Open and closed balls. Interior. Accumulation points.
+Neighborhood of a point. Open and closed sets. Limits and continuous functions.
+Diameter and distance of sets. Subspaces. Bounded and totally bounded sets.
+Dense sets and separable spaces. Completeness. Compactness. Baire category
+theorem. Homeomorphisms. Equivalent metrics. Isometries. Connected spaces and sets.
+Banach fixed-point theorem.
+
+  \item
+Normed spaces. Banach spaces. Lineal and continuous maps. Homeomorphisms and
+equivalent norms. Sequences and series of functions. Pointwise and uniform
+convergence. Uniform convergence and continuity. Uniform convergence and
+integration. Uniform convergence and differentiation. Equicontinuous functions.
+Arzel\'a-Ascoli theorem. Stone-Weierstrass theorem. Immersion of a space $E$ in
+$C(E)$. Cantor-Hausdorff completion theorem.
+
+  \item
+Differentiation in euclidean spaces. Differentiable maps. Properties of
+the differential. Partial derivatives. Jacobian matrix. Chain rule. Inverse function
+theorem. Implicit functions.
+\end{itemize}
+
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Kolmogorov, Fomin. Elements of the Theory of Functions and Functional Analysis, Volume $1$,
+Metric and Normed Spaces.\\
+Chapters $1$ and $2$.
+
+  \item
+Dieudonne. Foundations of Modern Analysis.\\
+Chapters $1$, $2$, $3$ and $5$.
+
+  \item
+Irving Kaplansky. Set Theory and Metric Spaces.\\
+Complete.
+
+\end{itemize}
+
+\hrulefill%------------------------------
+\subsection{Probability and Statistics [Mathematics]}
+
+\begin{itemize}
+  \item
+Sample space. Events. Algebra of events. Probability space. Properties. Superior and inferior limit of sets.
+
+  \item
+Conditional probability and independence of events. Borel-Cantelli lemma.
+
+  \item
+Random variables. Distribution function. Usual distributions. Joint probability distribution. Independence of random variables. Change of variables.
+
+  \item
+Expected value of random variables. Properties of the expected value, variance and covariance. Monotone and dominated convergence theorems.
+
+  \item
+Conditional probability distribution and expectation. Definition, particular cases and properties.
+
+  \item
+Convergence in probability and almost sure convergence. Markov and Chebyshev's inequalities. Weak law of large numbers. Applications. Kolmogorov's inequality. Strong law of large numbers.
+
+  \item
+Weak convergence. Definition. Helly's selection theorem. Characteristic functions. Properties. Inversion theorem. Lévy's continuity theorem. Central limit theorem. Applications.
+\end{itemize}
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item Sheldon Ross. A First Course In Probability.\\
+    Chapters $1$ to $8$ and $9.1$, $9.2$.
+
+  \item Durret. Probability, Theory and Examples.\\
+    Chapters $1$ to $3$ and $6$.
+\end{itemize}
+
+\hrulefill%------------------------------
+
+\subsection{Complex Analysis}
+
+\begin{itemize}
+  \item
+Complex numbers. Conjugation. Absolute value. Polar form. Powers and roots. Topology
+and continuity. Riemann sphere. Homographies.
+
+  \item
+Complex variable functions. Differentiability. Chain rule, derivative of the inverse.
+Cauchy-Riemann equations. Armonic functions. Armonic conjugate functions. Conformal maps.
+
+  \item
+Sequences and series of complex numbers. Convergence criteria for series.
+Function series. Pointwise, absolute, uniform and normal convergence. Weierstrass criterion.
+Power series. Abel's lemma. Convergence radius. Analytic functions.
+
+  \item
+Elemental functions. The exponential map. Properties and characterization. Trigonometric
+functions. Complex logarithm.
+
+  \item
+Integration of complex functions. Cauchy-Goursat theorem for rectangles. Cauchy's theorem
+for the disc. Morera's theorem. Winding number. Cauchy integral formula. Higher order derivatives.
+Cauchy inequalities. Liouville's theorem. Fundamental theorem of algebra.
+
+  \item
+Taylor expansion. Holomorphic functions are analytic. Zeroes of analytic functions.
+Order of zeroes.
+
+  \item
+Maximum modulus principle. Open mapping theorem. Inverse functions. Schwarz lemma.
+
+  \item
+General statement of Cauchy's theorem. Simply connected sets. Homotopic curves.
+
+  \item
+Isolated singularities. Laurent series. Region of convergence. Classification of
+isolated singularities. Study of poles. Casorati-Weierstrass theorem. Singularity
+at infinity.
+
+  \item
+Residues. Residue theorem. Logarithmic derivative. Rouch\'e's theorem.
+Meromorphic functions over the Riemann sphere.
+
+  \item
+Uniform convergence over compact sets. The space of holomorphic functions on an
+open connected set. Montel's theorem. Series of meromorphic functions.
+
+  \item
+Infinite products. Weierstrass theorem.
+
+  \item
+Conformal representation. Riemann's fundamental theorem. Biholomorphisms of the
+plane, the disc and the semiplane.
+\end{itemize}
+
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Ahlfors, L. V: Complex Analysis, Mc.Graw-Hill Book Co. (1979)\\
+Chapters $1$ to $5$.
+
+  \item
+Conway, J.B: Functions of One Complex Variable, Second edition, Springer-Verlag (1978)
+Chapters $1$ to $7$.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+\subsection{Real Analysis}
+
+
+\begin{itemize}
+  \item
+Lebesgue measure in $\RR^n$. Measure on intervals and sigma-elementary sets. Outer measure.
+Measurable sets. Lebesgue measure. Monotonic sequences of measurable sets. Sets of null measure. G-delta and F-sigma sets. Structure of measurable sets. Algebras and sigma-algebras. Borel sets. Translational invariance. Non-measurable sets.
+
+  \item
+Measurable functions. Algebraic operations and sequences of measurable functions. Simple functions. Borel functions. Properties true almost everywhere. Egoroff's theorem. Lusin's theorem. Convergence in measure.
+
+  \item
+Lebesgue integral. Integral of non-negative functions. Integral of simple functions. Monotonic convergence theorem. Fatou's lemma. Integral of real-valued functions. Linearity. Uniform convergence theorem. Dominated convergence theorem. Chebyshev's inequality. Integral of complex valued functions. Translational invariance. The integral as a set valued function. Absolute continuity of the integral. Comparison against Riemann integration.
+
+  \item
+Fubini's theorem. Cavalieri's principle. The Tonelli and Fubini theorems. Convolutions. Distribution functions.
+
+  \item
+Change of variables. Image of a measurable set under a linear transformation. Differentiable mappings. Change of variables formula.
+
+  \item
+$L^p$ spaces. Hölder and Minkowski's inequalities. Completeness. Dense classes of functions. Separability. Continuity modulus. Convolution. Young's theorem.
+
+  \item
+Differentiation of the integral. Simple Vitali's lemma. The Hardy-Littlewood maximal function. Maximal theorem. Lebesgue's differentiation theorem. Vitali's covering theorem. Differentiability of monotonic functions. Functions of bounded variation. Absolutely continuous and singular functions.
+
+  \item
+Measure and integration on abstract spaces. Measurable spaces. Measures. Measurable functions. Integration on an abstract measure space.
+
+  \item
+Signed measures. Hahn decomposition theorem. Jordan-Hahn decomposition of a measure. Complex-valued measures. Total variation. Absolutely continuous and singular measures. Lebesgue-Radon-Nikodym theorem. Bounded linear functions on $L^p$.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item Folland. Real Analysis - Modern Techniques and their Applications.\\
+    Chapters $1$ to $3$ and $6$.
+
+  \item Royden. Real Analysis.\\
+    Part One and chapters $11$ and $12$ from Part Three.
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Functional Analysis}
+
+
+\begin{itemize}
+  \item
+Normed spaces, elementary properties and examples. Banach spaces, linear functionals, the Hahn-Banach theorem. Linear operators. The open mapping and closed graph theorems. Uniform boundedness principle. Stone-Weierstrass' theorem. Riesz's representation theorem. $L^p$ spaces. Fourier series: uniform and pointwise convergence. Series of averages, $L^1$ convergence. Fej\'er kernel. Sufficient conditions for pointwise and uniform convergence. Example of a continuous function with divergent Fourier series. Poisson kernel.
+
+  \item
+Hilbert spaces, properties and examples. The Riesz lemma. The $H^2$ space. Shift operators, invariant subspaces. Orthonormal systems and bases. Operators in Hilbert spaces, examples. Normal, self-adjoint and positive operators. Projectors.
+
+  \item
+Weak topologies. Weak and weak* topologies on a Banach space. Alaoglu's theorem. Reflexivity. Goldstine's lemma. Geometric form of the Hahn-Banach theorem.
+
+  \item
+Compact operators. Spectrum of an operator. Spectral properties. Riesz-Fredholm theory. Fredholm's alternative. Application: the Dirichlet problem on a bounded domain in $\RR^3$ with smooth boundary.
+
+  \item
+Self-adjoint operators. Spectral properties. Spectral decomposition of a compact, self-adjoint operator. Application: regular Sturm-Liouville systems.
+
+  \item
+Functional calculus. Spectral measures. Resolutions of the identity. Spectral theorem for self-adjoint operators. Fourier-Plancherel transform.
+
+\end{itemize}
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item Conway. A Course in Functional Analysis.\\
+    Chapters $1$ to $3$ and $5$.
+  \item Brezis. Functional Analysis, Soboloev Spaces and Partial Differential Equations.\\
+    Chapters $1$ to $6$.
+\end{itemize}
+
+
+\hrulefill%------------------------------
+\subsection{Differential Equations}
+
+\begin{itemize}
+  \item
+Review of Cauchy's theorem for ordinary differential equations. Dependence on the initial condition. Examples of partial differential equations. Problem of the local existence of solutions.
+
+  \item
+Calculus of variations in one dimension. First variation and Euler-Lagrange equation. Extremals. Hamiltonian systems. Free boundary and isoperimetric problems. Multiple integrals.
+
+  \item
+Methods of separation of variables. Completeness of the system of eigenfunctions. Application to the resolution of boundary value problems for the Laplacian, the heat equation and the wave equation on different domains.
+
+  \item
+Harmonic functions. Solution of the Dirichlet problem in $\RR^n$. Green's function and Poisson kernel on the half-space and the sphere. Mean value property. Reciprocal of the mean value property. Maximum principle. Harnack's inequality. Analyticity of the harmonic functions.
+
+  \item
+Dirac delta function. Convolution product. Fourier transform. Transform of the convolution. Fourier inversion theorem. Fourier transform in $L2$. Application to the calculus of fundamental solutions and to the resolution of initial value problems for the Laplacian, the wave equation, the heat equation, and the Schrödinger equation.
+
+  \item
+The heat operator. The Gauss kernel and its applications. The heat equation in bounded domains. Maximum principle. Regularity. The wave equation in $1$, $2$ and $3$ dimensions.
+
+  \item
+    Sobolev spaces $W^{k,p}$. Variational formulation of boundary value problems. Existence and uniqueness of the minimizer in $H1$ for Dirichlet's integral. Regularity of the minimizer. Resolution of uniformly elliptic problems of second order. Compactness of the inclusion of $H1$ and $L2$. Eigenvalues. Application to the resolution of the heat equation on bounded domains.
+
+\end{itemize}
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item Simmons. Differential Equations with Applications and Historical Notes.\\
+    Chapters $1$ to $3$. Chapters $6$, $7$ and $12$.
+
+  \item L. Evans. Partial Differential Equations. AMS.\\
+    Chapters $5$, $6$ and $8$.
+
+  \item R. Courant and D. Hilbert. Methods of Mathematical Physics, Vol. I. Wiley Interscience.\\
+    I used it as a reference book.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Projective Geometry}
+
+\begin{itemize}
+  \item
+Affine space. Affine independence, coordinate systems, linear varieties.
+Affine transformations. Bilinear forms. Inner product, orthogonality,
+isometries. Volume.
+
+  \item
+Projective spaces. Homogeneous coordinates. Conics and quadrics. Classification.
+
+  \item
+Curves. Parametrized curves. Regular curves. Tangent vector. Arc length. Curvature
+and torsion.
+
+  \item
+Surfaces. Parametrizations, charts and atlaces. Regular surfaces. Tangent plane.
+Differential functions over surfaces. Vector fields. Differential forms. Orientation.
+Gauss map. Isometries. Parallel transport. Geodesics.
+
+  \item
+Classification of curves and compact surfaces. Existence of triangulations.
+Baricentric subdivision. Genus. Classification of non oriented surfaces.
+
+\end{itemize}
+
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Do Carmo, M.; Differential geometry of curves and surfaces, Prentice Hall\\
+Chapters $1$ to $4$.
+
+  \item
+Larotonda, A.; Algebra Lineal y Gometría. Eudeba, Buenos Aires.\\
+Complete.
+\end{itemize}
+
+
+
+
+\hrulefill%------------------------------
+
+\subsection{Topology}
+
+\begin{itemize}
+  \item
+Ordered sets and well ordered sets. Transfinite induction. Zermelo's theorem (well
+ordering of sets of cardinals).
+
+  \item
+Topological spaces. Open and closed sets, closure and interior. Neighborhoods.
+Basis and subbasis of a topology. Order topology. Metric topology. Nets.
+Continuous functions.
+
+  \item
+Final and initial topology. Product and box topology. Union of spaces. Subspace
+topology. Quotient topology. Fibered products.
+
+  \item
+Connection and path-connection. Proper functions. Compact and locally compact
+spaces. Alexandroff compactification. Topological groups.
+
+  \item
+Separability axioms. Urysohn's lemma.
+
+  \item
+Tychonoff theorem. Stone-Cech compactification.
+
+  \item
+Function spaces. Exponential topology and exponential law.
+Compact open topology. K-spaces.
+
+
+  \item
+Homotopy of functions. Relative homotopy. Homotopy equivalences and homotopy
+types. Contractible spaces. Deformation retracts. Cylinders and cones of functions.
+Extension of functions to the cone.
+
+  \item
+Homotopy between paths and loops. Fundamental grupoid and group. Fibers.
+Fibrations. Coverings. Fundamental group of spheres.
+
+  \item
+Van Kampen theorem and applications.
+
+  \item
+Existence and classification of coverings. Regular coverings and deck transformations
+group.
+
+  \item
+Introduction to singular and simplicial homology. Singular complex. Simplicial
+complexes. Domain invariance theorem. Invariance of dimension. Jordan curve theorem.
+Mayer-Vietoris and excision theorem.
+\end{itemize}
+
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+J. Munkres. Topology, a first course. Prentice-Hall.\\
+Chapters $1$ to $5$.
+
+  \item
+A. Hatcher. Algebraic Topology. Cambridge University Press.\\
+Chapters $1$ and $2$.
+
+  \item
+E. Spanier. Algebraic Topology. Mc Graw-Hill.\\
+Chapters $1$, $2$ and $4$.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+
+\subsection{Differential Geometry}
+
+\begin{itemize}
+  \item
+Implicit function theorem. Topological manifolds. Differetiable charts and
+atlases. Differential structures. Differential manifolds. Submanifolds
+of $\RR^n$.
+
+  \item
+Differentiable functions. Curves on manifolds. Tangent vectors and tangent
+space.
+
+  \item
+Differential of a differentiable function. Immersions and submersions.
+Properties and examples. Immersed and submersed submanifolds. Adapted charts.
+Regular and critical values. Lie Groups.
+
+  \item
+Tangent bundle. Vector fields. Integral curves, existence and uniqueness.
+Local flow. Completeness. Uniparametric group of diffeomorphisms.
+
+  \item
+Derivations and Lie bracket. Lie derivative. Frobenius' theorem. Cotangent
+bundle. $1$-forms.
+
+  \item
+Tensors and $k$-forms. Local representations. Tensors. Exterior derivative.
+
+  \item
+Partitions of unity. Orientable manifolds. Integration over oriented manifolds.
+Manifolds with boundary. Stokes theorem.
+
+  \item
+Connections. Covariant derivations. Curvature and torsion tensors. Parallel
+transport. Geodesics of a connection. Rimannian manifolds. Volume element.
+Levi-Civita connection.
+
+  \item
+DeRham theory. DeRham complex and DeRham cohomology.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Warner. Foundations of Differentiable Manifolds and Lie Groups. Springer.\\
+Chapters $1$ to $4$.
+
+  \item
+Tu L.W.; And introduction to Manifolds. Springer.\\
+Complete.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\section{Department of Mathematics -- elective courses}
+
+\subsection{Logic and Computability}
+
+\begin{itemize}
+  \item
+Logic. Formal systems. Propositional calculus and first order predicate calculus.
+Syntax and semantics. Valuations and truth tables. Semantic consequence and satisfiability.
+Refutation trees. Completeness and compactness theorems.
+
+  \item
+Computability. Algorithms and computable functions. G\"odel's language for computable
+functions. The halting problem. Primitive recursive functions and recursive functions.
+Universal programs. Church thesis. Recursion theorem. Recursive sets and recursively
+enumerable sets. Rice's theorem.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Davis, Weyunker. Computability, Complexity and Languages. Academic Press.\\
+Chapters $1$ to $5$. Chapters $11$ and $12$.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Grothendieck-Galois theory}
+
+\begin{itemize}
+  \item
+In the SGA1 Grothendieck develops a theory for categories together
+with a fiber functor with values in finite sets. He considers the
+category of continuous, transitive actions of the profinite group
+of automorphisms of the fiber. The classical theory
+of Artin-Galois and the theory of covering spaces are particular
+instances of this theory.
+
+  \item
+Deligne and Joyal develop the theory of Tannaka in a categorical way.
+It can be seen as a theory for abelian categories together with a functor
+with values in the tensorial category of finite dimensional vector spaces.
+In this case one considers the automorphisms of the fiber functor. These
+form a Hopf algebra, and one can study its category of comodules.
+
+  \item
+Some generalizations of Galois theory to topos theory. Locally constant
+sheaves and locally connected topoi.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+E. Dubuc. Localic Galois Theory. (article)
+  \item
+E. Dubuc. On the Representations Theory of Galois and Atomic Topoi. (article)
+  \item
+E. Dubuc and Constanza S. de la Vega. On the Galois Theory of Grothendieck. (article)
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Algebraic Topology}
+
+\begin{itemize}
+  \item
+Adjunction spaces. Cells, cellular spaces, CW complexes. Simplicial complexes.
+Fundamental group after attaching cells. Fundamental group of a CW complex.
+
+  \item
+Singular homology and cellular homology. Classical results. Lefschetz number and
+fixed-point theorems.
+
+  \item
+Homotopy groups of higher order. Relations between homotopy and homology. Weak
+equivalences. Whitehead's theorem. CW-approximation. Homotopic excision.
+Hurewicz's theorm.
+
+  \item
+Homology with coefficients. Cohomology and universal coefficients theorem.
+
+  \item
+Cellular complexes of dimension $2$ in terms of group presentations.
+Topological deformations and transformations in presentations. Open problems
+on $2$ dimensional polyhedra and the relation with combinatorial group theory.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+A. Hatcher. Algebraic Topology. Cambridge University Press.\\
+Chapters $2$ to $4$.
+
+  \item
+E. Spanier. Algebraic Topology. Mc Graw-Hill.\\
+Chapters $3$ to $7$.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Basic Topics in Category Theory}
+
+\begin{itemize}
+  \item
+Categories. Final and initial objects. Duality
+
+  \item
+Products, coproducts, equalizers and coequalizers.
+
+  \item
+Fibered products, monomorphisms, epimorphisms. Effective epimorphisms.
+
+  \item
+Filtrant colimits.
+
+  \item
+Limits and colimits.
+
+  \item
+Functors and natural transformations. Representable functors.
+Adjoint functors. Criteria for the existence of adjoints.
+
+  \item
+Presheaf categories. Yoneda's lemma. Generators.
+Exactness properties of presheaf categories.
+
+\end{itemize}
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Saunders Mac Lane. Categories for the Working Mathematician.\\
+Chapters $1$ to $4$.
+
+  \item
+Course notes.
+
+\end{itemize}
+
+
+\hrulefill%------------------------------
+
+\subsection{Differential Topology}
+
+\begin{itemize}
+  \item
+Critical and regular values. Sard's theorem. Transversality.
+
+  \item
+DeRahm cohomology. Sheaves and presheaves. Sheaf cohomology and classical
+theories. DeRham's theorem.
+
+  \item
+Morse theory. Critical points and Hessian. Morse functions. Fundamental
+theorems of Morse theory. Associated cell structure.
+
+  \item
+Applications of Morse theory. Characterization of spheres and discs.
+Poincar\'e-Hopf index theorem. Classification of compact surfaces.
+
+  \item
+Cobordism and h-cobordism. Poincar\'e's conjecture.
+
+  \item
+Knots and links. The group of a link. Seifert surfaces. Linking number.
+
+\end{itemize}
+
+
+
+\subsubsection{Bibliography}
+\begin{itemize}
+  \item
+Milnor. Topology from the Differentiable Viewpoint.\\
+Chapters $1$ to $6$.
+
+  \item
+Guillemin, Pollack. Differential Topology.\\
+Chapters $1$ to $3$.
+
+  \item
+Rolfsen. Knots and Links.\\
+Chapters $2$ and $5$.
+
+\end{itemize}
+
+\end{document}
